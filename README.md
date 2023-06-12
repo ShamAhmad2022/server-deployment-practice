@@ -2,7 +2,7 @@
 ## server-deployment-practice
 Author: Sham Al-Jalam
 
-* deployed application: [https://server-deployment-practice-oo7v.onrender.com/](https://server-deployment-practice-oo7v.onrender.com/)
+* deployed application : [https://server-deployment-practice-oo7v.onrender.com/](https://server-deployment-practice-oo7v.onrender.com/)
 [Link text](link URL)
 
 
