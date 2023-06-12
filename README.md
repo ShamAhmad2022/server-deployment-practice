@@ -2,11 +2,13 @@
 ## server-deployment-practice
 Author: Sham Al-Jalam
 
-* deployed application: https://server-deployment-practice-oo7v.onrender.com/
+* deployed application : [https://server-deployment-practice-oo7v.onrender.com/](https://server-deployment-practice-oo7v.onrender.com/)
+[Link text](link URL)
 
-* Github actions: https://github.com/ShamAhmad2022/server-deployment-practice/actions
 
-*  pull request: https://github.com/ShamAhmad2022/server-deployment-practice/pull/2
+* Github actions: [https://github.com/ShamAhmad2022/server-deployment-practice/actions](https://github.com/ShamAhmad2022/server-deployment-practice/actions)
+
+*  pull request: [https://github.com/ShamAhmad2022/server-deployment-practice/pull/2](https://github.com/ShamAhmad2022/server-deployment-practice/pull/2)
 
 ### Setup:
 .env requirements:
