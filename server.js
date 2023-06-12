@@ -3,6 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 
+const stamper = require('./Middleware/stamper');
 const pageNotFoundHandler = require('./Middleware/404');
 const serverError = require('./Middleware/500')
 
@@ -10,7 +11,7 @@ const app = express();
 app.use(cors());
 
 
-app.get('/', homeHandler);
+app.get('/', stamper, homeHandler);
 app.get('/error', intentionalErrorsHandler);
 
 app.use('*', pageNotFoundHandler)
@@ -20,7 +21,8 @@ app.use(serverError)
 function homeHandler (req, res) {
     res.status(200).json({
         code:200,
-        message: 'Welcome to the Home page :)'
+        message: 'Welcome to the Home page :)',
+        time: req.stamper
     })
 }
 
